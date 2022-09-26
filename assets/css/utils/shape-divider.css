@@ -1,0 +1,9 @@
+.insider-section-shape-divider {
+	&::before {
+		/* stylelint-disable-next-line function-url-quotes */
+		content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 1440 254'%3E%3Cpath fill='%232146EC' d='M57.158 165.934 0 252v1.5h1440V0H918.561a67 67 0 0 0-57.932 33.343l-40.27 69.314A67.001 67.001 0 0 1 762.426 136H112.971a67.001 67.001 0 0 0-55.813 29.934Z'/%3E%3C/svg%3E%0A");
+		@apply insider-w-full insider-overflow-hidden insider-absolute insider-left-0 insider-bottom-[calc(100%-1px)] insider-leading-[0] insider-z-[-1];
+	}
+
+	@apply insider-relative;
+}

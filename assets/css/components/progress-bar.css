@@ -1,0 +1,13 @@
+.insider-progress-bar {
+	&__text {
+		@apply insider-block insider-text-[1.5625rem] insider-leading-snug insider-text-dark insider-font-normal insider-px-3 insider-pt-[1.1rem];
+	}
+
+	& svg {
+		@apply insider-w-full insider-h-full;
+
+		& > text {
+			@apply insider-fill-body insider-text-[1.05rem] insider-font-black;
+		}
+	}
+}

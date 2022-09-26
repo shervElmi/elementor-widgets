@@ -1,0 +1,17 @@
+/* Hero section */
+@media (min-width: 1025px) and (max-width: 1189px) {
+	.elementor-12 .elementor-element.elementor-element-d098f4b {
+		@apply insider-w-[54%];
+	}
+
+	.elementor-12 .elementor-element.elementor-element-b1dc12b {
+		@apply insider-w-[46%];
+	}
+}
+
+/* Reasons to join us section */
+@media (min-width: 768px) {
+	.insider-reasons-to-join-us-helper {
+		@apply !insider-w-[calc(100%-264px)];
+	}
+}

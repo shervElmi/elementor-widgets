@@ -1,0 +1,3 @@
+.ast-builder-grid-row-3-rheavy .ast-builder-grid-row {
+	@apply insider-grid-cols-[1fr_4fr_4fr];
+}
